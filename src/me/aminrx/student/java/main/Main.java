@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.aminrx.main;
-import me.aminrx.model.SettingModel;
-import me.aminrx.util.Model;
-import me.aminrx.views.SettingView;
+package me.aminrx.student.java.main;
+import me.aminrx.student.java.model.SettingModel;
+import me.aminrx.student.java.util.Model;
+import me.aminrx.student.java.views.SettingView;
 
 /**
  *

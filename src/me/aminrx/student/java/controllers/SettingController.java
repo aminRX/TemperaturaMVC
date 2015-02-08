@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.aminrx.controllers;
+package me.aminrx.student.java.controllers;
 
-import me.aminrx.model.SettingModel;
-import me.aminrx.util.Controller;
-import me.aminrx.util.Model;
-import me.aminrx.util.View;
+import me.aminrx.student.java.model.SettingModel;
+import me.aminrx.student.java.util.Controller;
+import me.aminrx.student.java.util.Model;
+import me.aminrx.student.java.util.View;
 
 /**
  *

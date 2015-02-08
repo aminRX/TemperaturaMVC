@@ -1,6 +1,6 @@
-package me.aminrx.model;
+package me.aminrx.student.java.model;
 
-import me.aminrx.util.Model;
+import me.aminrx.student.java.util.Model;
 
 
 /*
