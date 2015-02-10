@@ -5,7 +5,7 @@
 package me.aminrx.student.java.main;
 import me.aminrx.student.java.model.SettingModel;
 import me.aminrx.student.java.util.Model;
-import me.aminrx.student.java.views.SettingView;
+import me.aminrx.student.java.views.temperatura.SettingView;
 
 /**
  *

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.aminrx.student.java.views;
+package me.aminrx.student.java.views.temperatura;
 
 import me.aminrx.student.java.controllers.SettingController;
 import me.aminrx.student.java.model.SettingModel;
