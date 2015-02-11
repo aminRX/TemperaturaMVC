@@ -4,14 +4,12 @@
  */
 package me.aminrx.student.java.util;
 
-import javax.swing.JFrame;
-
 
 /**
  *
  * @author aminRX
  */
-public abstract class Controller  extends JFrame implements Observer{
+public abstract class Controller implements Observer{
     
     protected Model model;
     protected View view;
@@ -20,8 +18,10 @@ public abstract class Controller  extends JFrame implements Observer{
         model.attach(this);
         this.model = model;
         this.view = view;
+        this.initializeInput();
     }
     public void handleEvent() {
         model.service();
     }
+    public abstract void initializeInput();
 }

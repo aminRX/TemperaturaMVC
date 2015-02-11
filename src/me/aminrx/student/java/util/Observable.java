@@ -18,6 +18,7 @@ public abstract class Observable {
     }
     public void attach(Observer o) {
         setOfObservers.add(o);
+        System.out.println(o);
     }
     public void detach(Observer o) {
         setOfObservers.remove(o);

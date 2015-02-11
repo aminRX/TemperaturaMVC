@@ -12,14 +12,18 @@ import me.aminrx.student.java.util.Model;
  *
  * @author aminRX
  */
-public class SettingModel extends Model {
+public class BasicModel extends Model {
     private float farenheit;
     private float kelvin;
+    private float celsius;
     
-    public SettingModel() {
+    public BasicModel() {
         super();
     }
     
+    public float getCelsius() {
+        return celsius;
+    }
     public float getKelvin() {
         return kelvin;
     }
@@ -27,11 +31,15 @@ public class SettingModel extends Model {
     public float getFahrenheit() {
         return farenheit;
     }
-    
-    public void setCelsiusToKelvin(int celsius) {
+    public void setCelsius(float celsius) {
+        this.celsius = celsius;
+        setCelsiusToFahrenheit(celsius);
+        setCelsiusToKelvin(celsius);
+    }
+    private void setCelsiusToKelvin(float celsius) {
         kelvin = (float)(celsius + 273.15);
     }
-    public void setCelsiusToFahrenheit(int celsius) {
+    private void setCelsiusToFahrenheit(float celsius) {
         farenheit =  (float)(1.8 * celsius + 32);
     }
 }
